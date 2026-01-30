@@ -1,1 +1,24 @@
+# macOS
 .DS_Store
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Node / Expo
+node_modules/
+.expo/
+
+# Env / logs
+.env
+*.log
+*.db
+
+# ML artefacts (local, generated, never commit)
+ML_side/models/
+software_side/walkbuddy_reactNative/ML_models/
+*.gguf
+

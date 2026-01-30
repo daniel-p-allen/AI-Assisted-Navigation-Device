@@ -8,3 +8,8 @@ node_modules
 *.db
 *.log
 .env
+# ML artefacts (generated / local only)
+ML_side/models/
+software_side/walkbuddy_reactNative/ML_models/
+*.gguf
+
