@@ -14,6 +14,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon from "react-native-vector-icons/FontAwesome";
 import HomeHeader from "./HomeHeader";
+import Footer from "./Footer";
 
 /*
   NOTE:
@@ -213,6 +214,7 @@ export default function SearchPage() {
           <View style={{ height: 1 }} />
           <View style={{ height: 1 }} />
         </View>
+        <Footer />
       </View>
     </SafeAreaView>
   );
